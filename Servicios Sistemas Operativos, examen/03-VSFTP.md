@@ -34,10 +34,10 @@ write_enable=YES
 #Enjaular a los usuarios en su directorio personal (quitar el simbolo "#")
 chroot_local_user=YES
 
-#Permitir escritura en el directorio raíz de chroot (permite al usuario enjaulado, subir, modificar o crear carpetas dentro del diectorio raíz de su propio directorio. Obligatorio en caso de activarse "chroot_local_user=YES"), agregar la siguiente linea:
+#Permitir escritura en el directorio raíz de chroot (permite al usuario enjaulado, subir, modificar o crear carpetas dentro del diectorio raíz de su propio directorio. Obligatorio en caso de activarse "chroot_local_user=YES"), agregar la siguiente linea al final:
 allow_writeable_chroot=YES
 
-#Omitir la validación de shell (necesario al usar /sbin/nologin): 
+#Omitir la validación de shell (necesario al usar /sbin/nologin), añadir la siguiente linea al final: 
 check_shell=NO
 
 Buscar la línea que dice "#listen=NO" o "listen=NO", quitar el simbolo # y cambiarlo a YES: 
