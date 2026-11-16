@@ -46,6 +46,7 @@ listen=YES
 Buscar la linea que dice "listen_ipv6=YES" y cambiarlo a NO:
 listen_ipv6=NO
 
+Guarda los cambios.
 
 sudo useradd -m -s /sbin/nologin usuario_ftp
 
