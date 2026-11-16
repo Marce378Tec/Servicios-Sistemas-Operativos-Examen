@@ -34,16 +34,16 @@ write_enable=YES
 #Enjaular a los usuarios en su directorio personal (quitar el simbolo "#")
 chroot_local_user=YES
 
-#Permitir escritura en el directorio raíz de chroot (permite al usuario enjaulado, subir, modificar o crear carpetas dentro del diectorio raíz de su propio directorio. Obligatorio en caso de activarse "chroot_local_user=YES")
+#Permitir escritura en el directorio raíz de chroot (permite al usuario enjaulado, subir, modificar o crear carpetas dentro del diectorio raíz de su propio directorio. Obligatorio en caso de activarse "chroot_local_user=YES"), agregar la siguiente linea:
 allow_writeable_chroot=YES
 
-#Omitir la validación de shell (necesario al usar /sbin/nologin)
+#Omitir la validación de shell (necesario al usar /sbin/nologin): 
 check_shell=NO
 
-Buscar la línea que dice "#listen=NO" o "listen=NO", quitar el simbolo # y cambiarlo a YES
+Buscar la línea que dice "#listen=NO" o "listen=NO", quitar el simbolo # y cambiarlo a YES: 
 listen=YES
 
-Buscar la linea que dice "listen_ipv6=YES" y cambiarlo a NO
+Buscar la linea que dice "listen_ipv6=YES" y cambiarlo a NO:
 listen_ipv6=NO
 
 
@@ -52,13 +52,13 @@ sudo useradd -m -s /sbin/nologin usuario_ftp
 sudo passwd usuario_ftp
 
 
-#Revisar si el usuario_ftp esta aqui
+#Revisar si el usuario_ftp esta aqui:
 sudo nano /etc/vsftpd/user_list
 
-#Si no esta hacer el siguiente paso
+#Si no esta hacer el siguiente paso:
 sudo nano /etc/pam.d/vsftpd
 
-#Buscar la linea que contiene la palabra pam_shell.so:
+#Buscar la linea que contiene la palabra pam_shell.so::
 auth required pam_shell.so
 
 #Poner un númeral al inicio para desactivarla:
