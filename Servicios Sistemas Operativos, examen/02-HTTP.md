@@ -47,3 +47,5 @@ EL FINAL DE LA LINEA SE TIENE QUE VER ASÍ
 img src="data:image/svg+xml;base64,..." alt="CentOS" /><img src="ucuencatec.png" alt="UCUENCATEC" style="height: 35px; margin-left: 15px;" /"signo de mayor que "</a"signo de mayor que"
 
 sudo systemctl restart httpd
+
+En el navegador fuera de CentOS, colocar : http://TU_IP
