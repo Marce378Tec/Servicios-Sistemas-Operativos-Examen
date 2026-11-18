@@ -21,7 +21,7 @@ ls -l /usr/share/testpage/index.html
 
 sudo nano /usr/share/testpage/index.html
 
-#Buscar la línea: "<h1>HTTP Server Test Page</h1>", ahi se puede cambiar el título de la página.
+**Buscar la línea: "<h1>HTTP Server Test Page</h1>", ahi se puede cambiar el título de la página.
 
 #En caso de no tener el símbolo "<", buscar la línea "/html", ésta se encuentra cerca de la línea que estamos buscando.
 
@@ -42,6 +42,6 @@ sudo nano /usr/share/testpage/index.html
 Modifica la línea de <a class="navbar-brand"...> o más sencillo buscar "<a class "
 
 EL FINAL DE LA LINEA SE TIENE QUE VER ASÍ 
-<img src="data:image/svg+xml;base64,..." alt="CentOS" /><img src="ucuencatec.png" alt="UCUENCATEC" style="height: 35px; margin-left: 15px;" /></a>
+img src="data:image/svg+xml;base64,..." alt="CentOS" /><img src="ucuencatec.png" alt="UCUENCATEC" style="height: 35px; margin-left: 15px;" /"signo de mayor que</a>
 
 sudo systemctl restart httpd
