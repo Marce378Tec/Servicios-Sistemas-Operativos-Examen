@@ -21,7 +21,7 @@ ls -l /usr/share/testpage/index.html
 
 sudo nano /usr/share/testpage/index.html
 
-**Buscar la línea: "<h1>HTTP Server Test Page</h1>", ahi se puede cambiar el título de la página.
+**Buscar la línea: "<h1"signo de mayor que"HTTP Server Test Page</h1>", ahi se puede cambiar el título de la página.
 
 #En caso de no tener el símbolo "<", buscar la línea "/html", ésta se encuentra cerca de la línea que estamos buscando.
 
