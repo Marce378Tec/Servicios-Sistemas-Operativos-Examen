@@ -44,6 +44,6 @@ sudo nano /usr/share/testpage/index.html
 Modifica la línea de <a class="navbar-brand"...> o más sencillo buscar "<a class "
 
 EL FINAL DE LA LINEA SE TIENE QUE VER ASÍ 
-img src="data:image/svg+xml;base64,..." alt="CentOS" /><img src="ucuencatec.png" alt="UCUENCATEC" style="height: 35px; margin-left: 15px;" /"signo de mayor que</a>
+img src="data:image/svg+xml;base64,..." alt="CentOS" /><img src="ucuencatec.png" alt="UCUENCATEC" style="height: 35px; margin-left: 15px;" /></a"signo de mayor que"
 
 sudo systemctl restart httpd
