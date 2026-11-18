@@ -30,7 +30,8 @@ sudo nano /usr/share/testpage/index.html
 sudo systemctl restart httpd
 
 
-COLOCAR IMAGEN:
+
+## COLOCAR IMAGEN:
 la palabra "ucuencatec.png" va a depender del nombre con el que se haya guardado a la imagen y el formato
 sudo cp /ruta/de/la/imagen/ucuencatec.png /usr/share/testpage/
 sudo chmod 644 /usr/share/testpage/ucuencatec.png
