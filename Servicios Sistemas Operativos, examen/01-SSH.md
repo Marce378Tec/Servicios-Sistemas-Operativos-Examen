@@ -28,6 +28,8 @@ sudo systemctl status sshd
 Subir de Windows  Centos
 cd Desktop:
 echo Archivo enviado desde Windows > prueba_windows.txt
+
+
 scp -P 2222 prueba_windows.txt "tu_usuario"@"tu_ip":/home/"tu_usuario"/
 
 Descargar de Centos a Windows
