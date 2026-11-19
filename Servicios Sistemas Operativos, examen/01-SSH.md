@@ -26,7 +26,7 @@ sudo systemctl status sshd
 
 ## Compartir archivos SCP desde cmd
 Subir de Windows  Centos
-cd Desktop
+cd Desktop:
 echo Archivo enviado desde Windows > prueba_windows.txt
 scp -P 2222 prueba_windows.txt "tu_usuario"@"tu_ip":/home/"tu_usuario"/
 
