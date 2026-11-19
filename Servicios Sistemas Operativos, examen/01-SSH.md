@@ -23,3 +23,11 @@ sudo firewall-cmd --list-ports
 sudo systemctl restart sshd
 
 sudo systemctl status sshd
+
+## Compartir archivos SCP desde cmd
+De Windows  Centos
+cd Desktop
+echo Archivo enviado desde Windows > prueba_windows.txt
+scp -P 2222 prueba_windows.txt "tu_usuario"@192.168.0.110:/home/"tu_usuario"/
+
+
