@@ -6,7 +6,7 @@ sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.backup
 sudo nano /etc/ssh/sshd_config
 
 
-#Port 22, (Hay que quitar el numeral y cambiar el puero, luego poner ctrl+O, enter y ctrl+X)
+#Port 22, (Hay que quitar el numeral y cambiar el puerto, luego poner ctrl+O, enter y ctrl+X)
 
 sudo dnf install -y policycoreutils-python-utils
 
